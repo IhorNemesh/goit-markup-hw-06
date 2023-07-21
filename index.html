@@ -418,7 +418,6 @@
 <div class="backdrop is-hidden" data-modal>
     <div class="modal">
         <form class="contact-form">
-            <div>
                 <strong class="title-form">Залиште свої дані, ми вам передзвонимо</strong>
                 <label class="contact-form-field" for="user_name"> <span class="inscriptions-span-wrap">Ім'я</span>
                     <span class="contact-form-input-wrapper">
@@ -449,14 +448,12 @@
                 <label class="contact-form-field" for=""> <span class="inscriptions-span-wrap">Коментар</span>
                     <textarea class="contact-form-massage" name="user_message"span placeholder="Введіть текст"></textarea>
                 </label>
-                <span class="contact-form-checkbox-wrapper">
-                    <input class="contact-form-checkbox" type="checkbox" name="user_contract" id="user_contract" required>
-                    <label class="contact-form-checkbox-label" for="user_contract">Погоджуюся з розсилкою та приймаю 
-                        <a href="">Умови договору</a>
+                <div class="contact-form-checkbox-wrapper">
+                    <input class="contact-form-checkbox visually-hidden" type="checkbox" name="user_contract" id="user_contract" required>
+                    <label class="contact-form-checkbox-label" for="user_contract">Погоджуюся з розсилкою та приймаю  
+                        <a class="link-form-modal" href=""> Умови договору</a>
                     </label>
-                </span>
-                
-            </div>
+                </div>
             <button class="contact-form-submit-btn" type="submit">Відправити</button>
         </form>
         <button type="button" class="modal-close-btn" data-modal-close>

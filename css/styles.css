@@ -751,9 +751,7 @@ transform: translate(-50%, -50%) scale(1.1);
 
 }
 /* Форма у модульному вікні початок */
-.contact-form{
-    
-}
+.contact-form{}
 .title-form{
     display: block;
     margin-bottom: 12px;
@@ -769,9 +767,7 @@ transform: translate(-50%, -50%) scale(1.1);
 }
 .contact-form-field{
     display: block;
-}
-.inscriptions-span-wrap{
-        font-family:var(--primery-font-fameli);
+    font-family: var(--primery-font-fameli);
         font-size: 12px;
         font-style: normal;
         font-weight: 400;
@@ -840,6 +836,7 @@ margin-bottom: 10px;
 }
 .contact-form-checkbox-wrapper {
     display: block;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 .contact-form-checkbox:focus + .contact-form-checkbox-label::before{
@@ -874,7 +871,6 @@ margin-bottom: 10px;
     cursor: pointer;
 }
 .link-form-modal{
-    padding-left: 4px;
     text-decoration:underline;
     color: var(--accent-color);
 

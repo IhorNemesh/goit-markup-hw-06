@@ -855,6 +855,7 @@ margin-bottom: 10px;
 .contact-form-checkbox-label {
     display: flex;
     align-items: center;
+    justify-content: center;
         font-family: var(--primery-font-fameli);
         font-size: 14px;
         font-style: normal;

@@ -755,7 +755,6 @@ transform: translate(-50%, -50%) scale(1.1);
     fill: var(--accent-color);
 }
 /* Форма у модульному вікні початок */
-.contact-form{}
 .title-form{
     display: block;
     margin-bottom: 12px;

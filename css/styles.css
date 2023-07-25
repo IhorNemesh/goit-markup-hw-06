@@ -750,8 +750,8 @@ transform: translate(-50%, -50%) scale(1.1);
 
 
 }
-.modal-close-icon:hover,
-.modal-close-icon:focus{
+.modal-close-btn:hover,
+.modal-close-btn:focus{
     fill: var(--accent-color);
 }
 /* Форма у модульному вікні початок */

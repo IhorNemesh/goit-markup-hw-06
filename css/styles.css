@@ -733,6 +733,7 @@ transform: translate(-50%, -50%) scale(1.1);
 }
 .modal-close-btn{
     position: absolute;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     top: 8px;
     right: 8px;
     padding: 0;
@@ -847,7 +848,8 @@ margin-bottom: 10px;
 }
 .contact-form-checkbox:checked + .contact-form-checkbox-label::before{
     background-image: url(/Images/icon-check.svg);
-    background-position: center;
+    background-size: contain;
+    background-origin: border-box;
     background-color: var(--accent-color);
     border-color: var(--accent-color);
 }
@@ -865,6 +867,7 @@ margin-bottom: 10px;
 .contact-form-checkbox-label::before{
     content: "";
     display: inline-block;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 16px;
     height: 15px;
     margin-right: 7px;

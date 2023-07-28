@@ -847,7 +847,7 @@ margin-bottom: 10px;
     outline: 1px solid rgba(0, 0, 255, 0.5);
 }
 .contact-form-checkbox:checked + .contact-form-checkbox-label::before{
-    background-image: url(/Images/icon-check.svg);
+    background-image: url(../Images/icon-check.svg);
     background-size: contain;
     background-origin: border-box;
     background-color: var(--accent-color);

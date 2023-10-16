@@ -111,26 +111,33 @@ position: absolute;
 .page-header{
     border-bottom: 1px solid #ECECEC;
 }
-.header-container{
+.container--header{
     display: flex;
     align-items: center;
     justify-content:space-between;
 }
-/* Логотип верхій початок*/
-.logo-top{
-    margin-right: 93px;
-
+/* Логотип */
+.logo{
     font-family: var(--secondary-font-fameli);
     font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.logo--top{
+    margin-right: 93px;
         color:#000000;
-    }
-.logo-accent{
+}
+.logo--bottom {
+            display: block;
+            margin-bottom: 28px;
+            color: #FFFFFF;
+}
+.logo__accent{
     color:var(--accent-color);
 }
-/* Логотип верхній кінець*/
+/* Логотип */
 
 /* Навигація по сторінкам* початок*/
 .navigation{
@@ -500,22 +507,7 @@ margin-right: 30px;
 
     background-color: #2F303A;}
 
-/* Логотип нижній початок*/
-.logo-bottom {
-    display: block;
-    margin-bottom: 28px;
 
-    font-family: var(--secondary-font-fameli);
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
-}
-.logo-accent {
-    color: #2196F3;
-}
-/* Логотип нижній кінець*/
 
 /* Адреса початок*/
 .address-list{
